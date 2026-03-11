@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Mono", monospace;
+  --font-mono: "DM Mono", monospace;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
